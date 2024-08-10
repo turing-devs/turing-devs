@@ -1,0 +1,10 @@
+.vscode/
+.git/
+
+.env
+.env.*
+
+node_modules/
+
+*dist*
+*build*
