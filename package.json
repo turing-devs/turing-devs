@@ -1,0 +1,32 @@
+{
+    "name": "turing-devs",
+    "version": "1.0.0",
+    "description": "The Website Of Turing Devs",
+    "main": "server/index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo No Test(s) Specified",
+        "dev": "nodemon --config nodemon.json ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/turing-devs/turing-devs.git"
+    },
+    "keywords": [],
+    "author": "Turing Devs",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/turing-devs/turing-devs/issues"
+    },
+    "homepage": "https://github.com/turing-devs/turing-devs#readme",
+    "dependencies": {
+        "chalk": "^5.3.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.4",
+        "prettier": "^3.3.3"
+    }
+}
