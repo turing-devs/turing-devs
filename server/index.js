@@ -2,11 +2,15 @@ import chalk from "chalk";
 
 import { NODE_ENV, PORT } from "./config.js";
 
+import connectDB from "./db/connect.js";
 import app from "./app.js";
 
 if (NODE_ENV === "development" || NODE_ENV === "dev") {
     console.log(chalk.yellowBright("Development Mode Enabled"));
 }
+
+// Connect to MongoDB
+await connectDB();
 
 // Server Listener
 const server = app.listen(PORT, () => {
