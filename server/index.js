@@ -1,24 +1,21 @@
-import dotenv from "dotenv";
 import chalk from "chalk";
+
+import { NODE_ENV, PORT } from "./config.js";
+
 import app from "./app.js";
-
-dotenv.config();
-
-const PORT = process.env?.PORT || 3000;
-const NODE_ENV = process.env?.NODE_ENV?.toLocaleLowerCase();
 
 if (NODE_ENV === "development" || NODE_ENV === "dev") {
     console.log(chalk.yellowBright("Development Mode Enabled"));
 }
 
-// Express App Error Handler
-app.on("error", (err) => {
-    console.error(chalk.red(err));
-});
-
 // Server Listener
 const server = app.listen(PORT, () => {
     console.log(chalk.blue(`Server is running on http://localhost:${PORT}`));
+});
+
+// Express App Error Handler
+app.on("error", (err) => {
+    console.error(chalk.red(err));
 });
 
 // process Error Handlers
