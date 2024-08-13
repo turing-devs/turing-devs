@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,128 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
+
 <body>
-    <h1>work in progress.....</h1>
+    <header>
+        <nav class="navbar">
+            <div class="name">Turing_Devs</div>
+            <div class="center">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">Members</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Home">
+            <div class="left-div">
+                <p id="hello">Hello !</p>
+                <p>We, the members of Turing_Devs ,welcome you to explore our website . </p>
+                <p>Explore our projects, learn about our members, and join us to become the part of our community .</p>
+                <span id="element"></span> <!--ata js ar jonno diachi -->
+            </div>
+            <div class="png">
+                <img src="./images/devoloper.png" alt="coding">
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="About">
+            <div class="team">
+                <h2>Meet Our Team</h2>
+                <div class="team-container">
+                    <!-- 1 -->
+                    <div class="team-member">
+                        <img src="./images/kd.png" alt="KD" class="member-photo">
+                        <div class="member-info">
+                            <h3>Full-Stack Web Developer</h3>
+                            <p class="member-name">Krishnendu Das</p>
+                            <p>About : I'm Krishnendu Das, currently in my 2nd year, pursuing Bachelor of Technology in
+                                Computer Science &
+                                Engineering from Sister Nivedita University, Kolkata. I'm passionate about Full-Stack
+                                Web
+                                Development and creating PWA(progreassive web apps). I also contribute to Open Source.
+                            </p>
+                            <p>Education : 1. Barasat P.C.S. Government High School(10+2) <br>
+                                2 . Sister Nivedita University- 2023 - 2027(B.Tech)</p>
+                        </div>
+
+                    </div>
+
+                    <!-- 2 -->
+
+                    <div class="team-member">
+                        <img src="./images/sk.png" alt="SK" class="member-photo">
+                        <div class="member-info">
+                            <h3> Frontend + AI/ML Enthusiast</h3>
+                            <p class="member-name">Sneha Karmakar</p>
+                            <p>About : I'm Sneha Karmakar a second year undergraduate student pursuing Bachelor of
+                                Technology in Computer Science and
+                                Engineering at Sister Nivedita University. Strong
+                                foundation in programming languages C and python .
+                                Contributed on various frontend designing projects with HTML5
+                                and CSS3 . I am also learning AI ML</p>
+                            <p>
+                                Education : Sister Nivedita University - 2023 - 2027(B.Tech)
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 3 -->
+
+
+                    <div class="team-member">
+                        <img src="./images/sm.jpg" alt="SM" class="member-photo">
+                        <div class="member-info">
+                            <h3>Web Devoloper</h3>
+                            <p class="member-name">Snigdha Mistry </p>
+                            <p>About : I am Snigdha Mistry, a second year undergraduate student, pursuing Bachelor of
+                                Technology in Computer Science & Engineering from Sister Nivedita University, Kolkata. I
+                                am passionate about creating seamless, user-friendly fullstack webapps. I am an
+                                innovative
+                                learner and tech enthusiast.</p>
+                            <p>Education : 1 .Sister Nivedita University (2023-2027) (B.Tech) <br>
+                                2.Barasat Nabapally Jogendranath Balika vidyamandir
+                                (10+2)
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <!-- 4 -->
+
+                    <div class="team-member">
+                        <img src="./images/ab.png" alt="AD" class="member-photo">
+                        <div class="member-info">
+                            <h3> UI,UX & AI/ML Enthusiast</h3>
+                            <p class="member-name">Anirban Das</p>
+                            <p>About : I'm Anirban Das a second year undergraduate student pursuing Bachelor of
+                                Technology in Computer Science and
+                                Engineering at Sister Nivedita University. I have a Strong
+                                foundation in programming languages i am a designer , innovative learner and AI/Ml
+                                enthusiast </p>
+                            <p>
+                                Education : 1 .Sister Nivedita University (2023-2027) (B.Tech)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Krishnendu Das .', 'Sneha Karmakar .', 'Anirban Das .', 'Snigdha Mistry .'],
+            typeSpeed: 50,
+        });
+    </script>
 </body>
+
 </html>
