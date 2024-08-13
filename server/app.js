@@ -13,4 +13,8 @@ app.use(cors(corsConfig));
 app.use(express.json(expressJsonConfig));
 app.use(express.static(expressStaticConfig));
 
+import formRouter from "./routes/form.route.js";
+
+app.use("/api/v1/form", formRouter);
+
 export default app;
