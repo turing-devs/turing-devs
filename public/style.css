@@ -8,12 +8,28 @@
         color: burlywood;
     }
 
-    nav {
+    #navbar {
         display: flex;
         justify-content: space-around;
         align-items: center;
         height: 70px;
         background-color: rgb(7, 14, 52);
+    }
+    
+    .button {
+        width: 120px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        padding: 12px;
+        gap: 12px;
+        border-radius: 8px;
+        cursor: pointer;
+        background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+        color: rgb(0, 0, 0);
+        font-size: 1.08rem;
     }
 
     nav ul {
@@ -102,7 +118,7 @@
         /* text-align: center; */
         font-size: 36px;
         margin-bottom: 50px;
-        color:burlywood;
+        color: burlywood;
     }
 
     .team-container {
@@ -115,7 +131,7 @@
     .team-member {
         display: flex;
         flex-direction: row;
-        background-color:rgb(7, 14, 52);
+        background-color: rgb(7, 14, 52);
         border: 3px solid rgb(217, 112, 202);
         border-radius: 5px;
         padding: 20px;
@@ -125,7 +141,7 @@
 
     .team-member:hover {
         transform: translateY(-5px);
-        box-shadow: 0 2px 10px  rgb(254, 189, 234);
+        box-shadow: 0 2px 10px rgb(254, 189, 234);
     }
 
     .member-photo {
@@ -134,13 +150,14 @@
         border-radius: 30%;
         margin-bottom: 20px;
     }
-    .member-photo1{
+
+    .member-photo1 {
         width: 20%;
         height: auto;
         border-radius: 30%;
         margin-bottom: 20px;
     }
-    
+
     .team-member h3 {
         font-size: 25px;
         color: burlywood;
@@ -159,9 +176,12 @@
         color: rgb(255, 255, 255);
         line-height: 1.5;
     }
+
     .member-info {
         flex: 1;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
+    
