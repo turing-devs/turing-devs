@@ -6,6 +6,7 @@
     "type": "module",
     "scripts": {
         "test": "echo No Test(s) Specified",
+        "start": "node .",
         "dev": "nodemon --config nodemon.json ."
     },
     "repository": {
