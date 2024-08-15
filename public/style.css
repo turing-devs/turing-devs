@@ -116,7 +116,7 @@
 
     .team h2 {
         /* text-align: center; */
-        font-size: 36px;
+        font-size: 3rem;
         margin-bottom: 50px;
         color: burlywood;
     }
@@ -189,13 +189,14 @@
         align-items: center;
         padding-top: 6px;
         padding-right: 66px;
-        padding-bottom: 66px;
+        padding-bottom: 10px;
         padding-left: 66px;
     }
     #Projects h2 {
         text-align: center;
         margin-bottom: 20px;
         color: rgb(219, 181, 131);
+        font-size: 3rem;
     }
     .table {
         width: 100%;
@@ -220,3 +221,5 @@
         overflow: hidden;
         text-overflow: ellipsis; 
     }
+
+    
