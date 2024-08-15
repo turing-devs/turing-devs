@@ -183,5 +183,32 @@
         flex-direction: column;
         align-items: center;
     }
-
+    .project{
+        padding-top: 6px;
+        padding-right: 66px;
+        padding-bottom: 66px;
+        padding-left: 66px;    
+    }
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed; 
+    }
     
+    .table th, .table td {
+        border: 2px solid #b35ab5;
+        padding: 10px;
+        text-align: left;
+        word-break: break-all;
+        color: rgb(255, 255, 255);
+    }
+    
+    .table th {
+        background-color: #190b5a;
+    }
+    
+    .table td, .table th {
+        max-width: 200px; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
