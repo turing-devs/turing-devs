@@ -1,225 +1,225 @@
-    * {
-        margin: 0;
-        padding: 0;
-    }
+* {
+    margin: 0;
+    padding: 0;
+}
 
-    body {
-        background-color: rgb(1, 1, 23);
-        color: burlywood;
-    }
+body {
+    background-color: rgb(1, 1, 23);
+    color: burlywood;
+}
 
-    #navbar {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 70px;
-        background-color: rgb(7, 14, 52);
-    }
-    
-    .button {
-        width: 120px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: none;
-        padding: 12px;
-        gap: 12px;
-        border-radius: 8px;
-        cursor: pointer;
-        background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
-        color: rgb(0, 0, 0);
-        font-size: 1.08rem;
-    }
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(7, 14, 52);
+}
 
-    nav ul {
-        display: flex;
-        justify-content: center;
-    }
+.button {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+    color: rgb(0, 0, 0);
+    font-size: 1.08rem;
+}
 
-    nav ul li {
-        list-style: none;
-        margin: 0 23px;
-    }
+nav ul {
+    display: flex;
+    justify-content: center;
+}
 
-    nav ul li a {
-        text-decoration: none;
-        color: burlywood;
-    }
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
 
-    nav ul li a:hover {
-        color: rgb(237, 236, 234);
-    }
+nav ul li a {
+    text-decoration: none;
+    color: burlywood;
+}
 
-    .name {
-        font-size: 1.8rem;
-    }
+nav ul li a:hover {
+    color: rgb(237, 236, 234);
+}
 
-    #Home {
-        display: flex;
-        justify-content: space-around;
-        margin: 23px 0;
-    }
+.name {
+    font-size: 1.8rem;
+}
 
-    #Home div {
-        width: 30%;
-        overflow: hidden;
-    }
+#Home {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
 
-    .left-div {
-        margin: 50px 0;
-        width: 34px;
-    }
+#Home div {
+    width: 30%;
+    overflow: hidden;
+}
 
-    #hello {
-        font-size: 3rem;
-        color: rgb(217, 112, 202);
-    }
+.left-div {
+    margin: 50px 0;
+    width: 34px;
+}
 
-    .left-div p {
-        font-size: 1.9rem;
-        margin-bottom: 13px;
-    }
+#hello {
+    font-size: 3rem;
+    color: rgb(217, 112, 202);
+}
 
-    .left-div span {
-        font-size: 2rem;
-    }
+.left-div p {
+    font-size: 1.9rem;
+    margin-bottom: 13px;
+}
 
-    .png img {
-        margin: 40px 0;
-    }
+.left-div span {
+    font-size: 2rem;
+}
 
-    #element {
-        color: rgb(217, 112, 202);
-    }
+.png img {
+    margin: 40px 0;
+}
 
-    main hr {
-        border: 0;
-        background: rgb(93, 70, 162);
-        height: 2px;
-        margin: 50px 269px;
-    }
+#element {
+    color: rgb(217, 112, 202);
+}
 
-    #About {
-        display: flex;
-        justify-content: center;
-        background-color: rgb(1, 1, 23);
-    }
+main hr {
+    border: 0;
+    background: rgb(93, 70, 162);
+    height: 2px;
+    margin: 50px 269px;
+}
 
-    .team {
-        text-align: center;
-        padding-right: 20px;
-        padding-bottom: 50px;
-        padding-left: 20px;
-        background-color: rgb(1, 1, 23);
-    }
+#About {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1, 1, 23);
+}
 
-    .team h2 {
-        /* text-align: center; */
-        font-size: 3rem;
-        margin-bottom: 50px;
-        color: burlywood;
-    }
+.team {
+    text-align: center;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    background-color: rgb(1, 1, 23);
+}
 
-    .team-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        row-gap: 30px;
-    }
+.team h2 {
+    /* text-align: center; */
+    font-size: 3rem;
+    margin-bottom: 50px;
+    color: burlywood;
+}
 
-    .team-member {
-        display: flex;
-        flex-direction: row;
-        background-color: rgb(7, 14, 52);
-        border: 3px solid rgb(217, 112, 202);
-        border-radius: 5px;
-        padding: 20px;
-        width: 80%;
-        transition: transform 0.3s ease;
-    }
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 30px;
+}
 
-    .team-member:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 2px 10px rgb(254, 189, 234);
-    }
+.team-member {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(7, 14, 52);
+    border: 3px solid rgb(217, 112, 202);
+    border-radius: 5px;
+    padding: 20px;
+    width: 80%;
+    transition: transform 0.3s ease;
+}
 
-    .member-photo {
-        width: 20%;
-        height: auto;
-        border-radius: 30%;
-        margin-bottom: 20px;
-    }
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 2px 10px rgb(254, 189, 234);
+}
 
-    .member-photo1 {
-        width: 20%;
-        height: auto;
-        border-radius: 30%;
-        margin-bottom: 20px;
-    }
+.member-photo {
+    width: 20%;
+    height: auto;
+    border-radius: 30%;
+    margin-bottom: 20px;
+}
 
-    .team-member h3 {
-        font-size: 25px;
-        color: burlywood;
-        margin-bottom: 10px;
-    }
+.member-photo1 {
+    width: 20%;
+    height: auto;
+    border-radius: 30%;
+    margin-bottom: 20px;
+}
 
-    .member-name {
-        font-size: 20px;
-        font-weight: bold;
-        color: #d896e5;
-        margin-bottom: 10px;
-    }
+.team-member h3 {
+    font-size: 25px;
+    color: burlywood;
+    margin-bottom: 10px;
+}
 
-    .team-member p {
-        font-size: 14px;
-        color: rgb(255, 255, 255);
-        line-height: 1.5;
-    }
+.member-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d896e5;
+    margin-bottom: 10px;
+}
 
-    .member-info {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    #Projects {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 6px;
-        padding-right: 66px;
-        padding-bottom: 10px;
-        padding-left: 66px;
-    }
-    #Projects h2 {
-        text-align: center;
-        margin-bottom: 20px;
-        color: rgb(219, 181, 131);
-        font-size: 3rem;
-    }
-    .table {
-        width: 100%;
-        border-collapse: collapse;
-        table-layout: fixed; 
-    }
-    
-    .table th, .table td {
-        border: 2px solid rgb(222, 135, 200);
-        padding: 10px;
-        text-align: left;
-        word-break: break-all;
-        color: rgb(255, 255, 255);
-    }
-    
-    .table th {
-        background-color: #190b5a;
-    }
-    
-    .table td, .table th {
-        max-width: 200px; 
-        overflow: hidden;
-        text-overflow: ellipsis; 
-    }
+.team-member p {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
 
-    
+.member-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6px;
+    padding-right: 66px;
+    padding-bottom: 10px;
+    padding-left: 66px;
+}
+#Projects h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(219, 181, 131);
+    font-size: 3rem;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.table th,
+.table td {
+    border: 2px solid rgb(222, 135, 200);
+    padding: 10px;
+    text-align: left;
+    word-break: break-all;
+    color: rgb(255, 255, 255);
+}
+
+.table th {
+    background-color: #190b5a;
+}
+
+.table td,
+.table th {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
