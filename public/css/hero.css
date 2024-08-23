@@ -1,0 +1,43 @@
+#Home {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+
+#Home div {
+    width: 30%;
+    overflow: hidden;
+}
+
+.left-div {
+    margin: 50px 0;
+    width: 34px;
+}
+
+#hello {
+    font-size: 3rem;
+    color: rgb(217, 112, 202);
+}
+
+.left-div p {
+    font-size: 1.9rem;
+    margin-bottom: 13px;
+}
+
+.left-div span {
+    font-size: 2rem;
+}
+
+.png img {
+    margin: 40px 0;
+}
+
+#element {
+    color: rgb(217, 112, 202);
+}
+main hr {
+    border: 0;
+    background: rgb(93, 70, 162);
+    height: 2px;
+    margin: 50px 269px;
+}

@@ -1,0 +1,46 @@
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(7, 14, 52);
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+    color: rgb(0, 0, 0);
+    font-size: 1.08rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: burlywood;
+}
+
+nav ul li a:hover {
+    color: rgb(237, 236, 234);
+}
+
+.name {
+    font-size: 1.8rem;
+}
