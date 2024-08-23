@@ -1,6 +1,6 @@
 .contact-form {
-    max-width: 600px; 
-    margin: 40px auto; 
+    max-width: 600px;
+    margin: 40px auto;
     padding: 20px;
     background-color: #2b047a;
     border: 1px solid #10486e;
@@ -14,7 +14,7 @@
 
 .contact-form input,
 .contact-form textarea {
-    width: 100%; 
+    width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #074a8d;
