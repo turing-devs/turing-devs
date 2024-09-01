@@ -58,3 +58,9 @@
     text-align: center;
     clear: both;
 }
+hr {
+    border: 0;
+    background: rgb(26, 5, 81);
+    height: 1px;
+    margin: 5px 100px;
+}
