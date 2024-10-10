@@ -1,5 +1,6 @@
 #navbar {
     display: flex;
+    /* position: fixed; */
     justify-content: space-around;
     align-items: center;
     height: 70px;
@@ -86,21 +87,21 @@ nav ul li a:hover {
     }
     #button{
         display: block;
-        position: absolute;
+        position: fixed;
         color:#f5f5fc;
         font-size:25px;
-        top:20px;
-        right:30px;
+        top:10px;
+        left:3px;
         padding-left: 10px;
         margin-right: 5px;
         /* display:none; */
     }
     #buttonc{
-        position: absolute;
+        position: fixed;
         color:#f5f5fc;
         font-size:30px;
-        top: 18px;
-        right:30px;
+        top: 10px;
+        left:3px;
         padding-left:10px;
         margin-right:5px;
         display:none;
@@ -108,7 +109,7 @@ nav ul li a:hover {
     .slide{
         display: block;
         padding-top:20px;
-        position:absolute;
+        position:fixed;
         left:0px;
         top:71px;
         background-color: rgb(7, 14, 52);
