@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="./css/projects.css" />
         <link rel="stylesheet" href="./css/contact.css" />
         <link rel="stylesheet" href="./css/footer.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
         <script
             src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"
             defer
@@ -22,17 +23,21 @@
         <header>
             <nav id="navbar">
                 <div class="name">Turing Devs</div>
-                <div class="center">
+                <input type="checkbox" id="check">
+                <label for="check" id="button"><i  class="fa fa-bars "></i></label>
+                <label for="check" id="buttonc"><i  class="fa fa-close"></i></label>
+                <div class="center slide">
                     <ul>
-                        <li><a href="#Home">Home</a></li>
-                        <li><a href="#About">Members</a></li>
-                        <li><a href="#Projects">Projects</a></li>
-                        <li><a href="#Contact">Contact</a></li>
+                        <li><a href="#Home"><i class="fa fa-house"></i>Home</a></li>
+                        <li><a href="#About"><i class="fa fa-user"></i>Members</a></li>
+                        <li><a href="#Projects"><i class="fa fa-link"></i>Projects</a></li>
+                        <li><a href="#Contact"><i class="fa fa-phone"></i>Contact</a></li>
+                        
                     </ul>
                 </div>
-                <div class="right">
+                <!-- <div class="right">
                     <button class="button">Admin login</button>
-                </div>
+                </div> -->
             </nav>
         </header>
 
